@@ -1,4 +1,3 @@
-export default function () {
-	return console.log('Nadir component');
-}
+#!/usr/bin/env node
+module.exports = console.log('Nadir component');
 

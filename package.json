@@ -1,20 +1,25 @@
 {
-  "name": "nadir_component",
-  "version": "1.0.0",
+  "name": "nadir",
+  "version": "2.0.2",
   "description": "Its first Nadir Component in the whole World",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js"
   },
   "keywords": [
     "nadir"
   ],
   "author": "Nadir Zh.",
   "license": "ISC",
-  "devDependencies": {
-    "webpack": "^2.5.1"
+  "bin": {
+    "nadir": "./index.js"
   },
-  "browserify": {
-    "transform": [["babelify", { "presets": ["es2015"] }]]
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zero-t4/Nadir-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zero-t4/Nadir-component/issues"
+  },
+  "homepage": "https://github.com/zero-t4/Nadir-component#readme"
 }
